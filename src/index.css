@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  margin-top: 10em;
+}
+td:hover {
+  background-color: #31b0d5;
+  cursor: pointer;
+}
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.modalFooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.loginForm {
+  width: 50%;
+  margin: 0 auto;
+}
+.listEvents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listEvents div {
+  width: 50%;
+  display: flex;
+}
